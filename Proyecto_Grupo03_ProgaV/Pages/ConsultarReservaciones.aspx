@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ConsultarReservaciones.aspx.cs" Inherits="Proyecto_Grupo03_ProgaV.Pages.ConsultarReservaciones" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Consulta Reservaciones</h1>
-    <h1>Mis Reservaciones1</h1>
+    <h1>Mis Reservaciones</h1>
     <asp:GridView ID="gv_Reservaciones" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="3" GridLines="Horizontal" Width="821px" >
         <Columns>
             <asp:BoundField DataField="idReservacion" HeaderText="# Reservacion" />
